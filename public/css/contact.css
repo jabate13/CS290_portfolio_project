@@ -1,0 +1,132 @@
+/* Header */
+.header {
+	padding: 10px, 16px;
+	background: #555;
+	color: #f1f1f1;
+	position: sticky;
+	position: -webkit-sticky; /* For safari*/
+	top: 0;
+}
+
+.logo {
+	padding: 0px 16px;
+}
+/* Navigation bar */
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav {
+	float: left;
+}
+
+.nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: #111;
+}
+
+.explanation {
+  margin: auto;
+  text-align: center;
+  font-size: 2.0em;
+  color: black;
+  margin-top: 20px;
+}
+
+/*From Content*/
+.formStyle{
+	max-width:400px;
+	margin:50px auto;
+	background:#fff;
+	border-radius:2px;
+	padding:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.formStyle h1{
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0px 0px 20px 0px;
+	color: #555;
+	font-size:x-large;
+}
+.formStyle ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.formStyle li{
+	display: block;
+	padding: 9px;
+	border:1px solid #555;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.formStyle li > label{
+	display: block;
+	float: left;
+	margin-top: -19px;
+	background: #FFFFFF;
+	height: 14px;
+	padding: 2px 5px 2px 5px;
+	color: #555;
+	font-size: 14px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.formStyle input[type="text"],
+.formStyle input[type="email"],
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+	font-family: Georgia, "Times New Roman";
+}
+
+.formStyle li > span{
+	background: #F3F3F3;
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9px -9px;
+	text-align: center;
+	color: #626262;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.formStyle textarea{
+	resize:none;
+}
+.formStyle input[type="submit"],
+.formStyle input[type="button"]{
+	background: #F3F3F3;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 3px solid #555;
+	border-radius: 3px;
+	color: #555;
+  text-align: center;
+}
+
+.formStyle .submitButton {
+  text-align: center;
+  border: 1px solid #fff;
+}
